@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+<script>
+// var toggle_visibility = (function(){
+//     function toggle(id){
+//         var el = document.getElementById(id);
+//         el.style.display = el.style.display==='none' ? 'block' : 'none';
+//     }
+//     return function(){
+//         for(var i=0; i<arguments.length; ++i){
+//             toggle(arguments[i]);
+//         }
+//     };
+// })();
+
+// function toggle_visibility(id){
+//     var el = document.getElementById(id);
+//     // el.style.display = el.style.display==='none' ? 'block' : 'none';
+//     el.style.display = (el.style.display != 'none' ? 'none' : '' );
+// }
+
+// function toggle_visibility(id) {
+//     var el = document.getElementById(id);
+//     el.style.display = (el.style.display != 'none' ? 'none' : '');
+// }
+
+function toggle_visibility(id, coll){
+    
+}
+
+
+</script>
+</head>
+<body>
+<a href="#" onclick="toggle_visibility('myclass', 'da')">토글버튼</a>
+<div id="myclass" class="myclass">내용</div>
+<br>
+<a href="#" onclick="toggle_visibility('myclass2')">토글버튼</a>
+<div id="myclass2" class="myclass2">내용</div>
+<br>
+<a href="#" onclick="toggle_visibility('myclass3')">토글버튼</a>
+<div id="myclass3" class="myclass3">내용</div>
+</body>
+</html>
